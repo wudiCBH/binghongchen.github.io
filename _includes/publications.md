@@ -10,7 +10,7 @@
   <!-- 左边展示gif -->
   <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
     {% if item.image %}
-    <img src="{{ item.image }}" class="teaser img-fluid z-depth-1" style="width:100%; height:auto;">
+    <img src="{{ item.image }}" class="teaser img-fluid z-depth-1" style="width:540px; height:auto;">
     {% endif %}
   </div>
 

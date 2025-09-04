@@ -16,6 +16,6 @@ main:
   - title: "Fault-tolerant Control for Quadrotor via a Fast RL Approach"
     time: "Aug 2024 - Oct 2024"
     supervisor: "Prof. PengLu, the University of HongKong"
-    image: "./assets/img/dVRK_sofa.gif"
+    image: "./assets/img/FTC.gif"
     description1: "Train and deploy an RL policy for controlling a small drone with rotor failure with RLtools, a C++ RL library."
     description2: "Succeed in simulation but highly unstable in reality."
