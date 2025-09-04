@@ -8,14 +8,14 @@
 <li>
 <div class="pub-row">
   <!-- 左边展示gif -->
-  <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
+  <div class="col-sm-3 abbr" style="position: relative; padding-right: 10px; padding-left: 10px;"> 
     {% if item.image %}
     <img src="{{ item.image }}" class="teaser img-fluid z-depth-1" style="width:360px; height:auto;">
     {% endif %}
   </div>
 
   <!-- 右边文字部分 -->
-  <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
+  <div class="col-sm-9" style="position: relative; padding-right: 10px; padding-left: 15px;">
       <!-- 蓝色小字标题 -->
       <div class="title" style="color:#1e90ff; font-size:14px; font-weight:bold;">
         {{ item.title }}
@@ -38,4 +38,3 @@
 
 </ol>
 </div>
-
