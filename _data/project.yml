@@ -5,24 +5,4 @@ main:
     image: "./assets/img/arc.gif"
     description1: "Responsible for mechanical design and building controller on STM32 or Arduino"
 
-  - title: "Object Manipulation with Wristed da Vinci Research Kit"
-    time: "May 2025 - July 2025"
-    supervisor: "Dessight Biomedical Company"
-    image: "./assets/img/dvrk.gif"
-    description1: "Responsible for deploying several benchmark algorithms for a series of manipulation tasks. The paper is on writing for ICRA 2026 where I am a co-author."
-    # description2: "Also responsible for building RL environment in SOFA and Isaac Sim."
-
-  - title: "Capturing Dynamic Target with Magnetic Microgripper via RL"
-    time: "Oct 2024 - Apirl 2025"
-    supervisor: "Prof. Mingchuan Zhou, Zhejiang University"
-    image: "./assets/img/micro.gif"
-    description1: "Developed an RL policy with a specific network framework for microgripper chasing target in cluttered environment."
-    # description2: "Under review by IEEE Transactions on Robitics as a co-first author."
-
-  - title: "Fault-tolerant Control for Quadrotor via a Fast RL Approach"
-    time: "Aug 2024 - Oct 2024"
-    supervisor: "Prof. PengLu, the University of HongKong"
-    image: "./assets/img/FTC.gif"
-    description1: "Train and deploy an RL policy for controlling a small drone with rotor failure with RLtools, a C++ RL library."
-    # description2: "Succeessful in simulation but highly unstable in reality."
 
