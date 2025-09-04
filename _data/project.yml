@@ -1,0 +1,7 @@
+main:
+  - title: "Student Agricultural Robotics Competitions"
+    time: "Sep 2023 - Dec 2023"
+    supervisor: "2024 ASABE"
+    image: "./assets/img/dVRK_sofa.gif"
+    description1: "Responsible for mechanical design and building controller on STM32 or Arduino"
+

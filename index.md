@@ -12,4 +12,4 @@ I am seeking a research advisor right now. I will also apply for Ph.D. in roboti
 
 {% include_relative _includes/publications.md %}
 
-<!-- {% include_relative _includes/services.md %} -->
+{% include_relative _includes/project.md %}
