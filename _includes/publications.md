@@ -10,7 +10,7 @@
   <!-- 左边展示gif -->
   <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
     {% if item.image %}
-    <img src="{{ item.image }}" class="teaser img-fluid z-depth-1" style="width:540px; height:auto;">
+    <img src="{{ item.image }}" class="teaser img-fluid z-depth-1" style="width:360px; height:auto;">
     {% endif %}
   </div>
 
@@ -26,8 +26,8 @@
       </div>
       <!-- 两行描述 -->
       <div class="description" style="margin-top:5px; font-size:14px;">
-        <p>{{ item.description1 }}</p>
-        <p>{{ item.description2 }}</p>
+        <p style="margin:2px 0;">{{ item.description1 }}</p>
+        <p style="margin:2px 0;">{{ item.description2 }}</p>
       </div>
   </div>
 </div>
