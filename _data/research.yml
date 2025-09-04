@@ -2,7 +2,7 @@ main:
   - title: "Soft Magnetic Robot"
     time: "Sep 2023 - Jun 2025"
     supervisor: "Prof. Mingchuan Zhou, Zhejiang University"
-    image: "/assets/img/dVRK_sofa.gif"
+    image: "./assets/img/dVRK_sofa.gif"
     description1: "Designed and tested soft magnetic robots for biomedical applications."
     description2: "Focused on actuation strategies and controllability under external magnetic fields."
 
