@@ -3,7 +3,7 @@
 <div class="publications">
 <ol class="bibliography">
 
-{% for item in site.data.research.main %}
+{% for item in site.data.project.main %}
 
 <li>
 <div class="pub-row">
