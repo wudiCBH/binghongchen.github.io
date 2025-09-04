@@ -1,8 +1,8 @@
 # Basic Information 
-title: Your Name
-position: Ph.D. Student
-affiliation: Your Affiliation
-email: yourname (at) example.edu
+title: Binghong Chen
+position: Master of Mechanical Engineering - Research
+affiliation: Carnegie Mellon University
+email: binghong (at) andrew.cmu.edu
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -13,7 +13,7 @@ canonical: https://minimal-light-theme.yliu.me/
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.com/
-cv_link: assets/files/curriculum_vitae.pdf
+cv_link: assets/files/Resume.pdf
 github_link: https://github.com/
 linkedin: https://www.linkedin.com/
 twitter: https://twitter.com/
