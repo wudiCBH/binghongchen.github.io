@@ -1,45 +1,34 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+<h2 id="research" style="margin: 2px 0px -15px;">Research Experiences</h2>
 
 <div class="publications">
 <ol class="bibliography">
 
-{% for link in site.data.publications.main %}
+{% for item in site.data.research.main %}
 
 <li>
 <div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-    {% if link.conference_short %} 
-    <abbr class="badge">{{ link.conference_short }}</abbr>
-    {% endif %}
+  <!-- 左边展示gif -->
+  <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
+    {% if item.image %}
+    <img src="{{ item.image }}" class="teaser img-fluid z-depth-1" style="width:100%; height:auto;">
     {% endif %}
   </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
+
+  <!-- 右边文字部分 -->
+  <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
+      <!-- 蓝色小字标题 -->
+      <div class="title" style="color:#1e90ff; font-size:14px; font-weight:bold;">
+        {{ item.title }}
       </div>
-    <div class="links">
-      {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      {% endif %}
-      {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      {% endif %}
-      {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      {% endif %}
-      {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      {% endif %}
-      {% if link.notes %} 
-      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
-      {% endif %}
-      {% if link.others %} 
-      {{ link.others }}
-      {% endif %}
-    </div>
+      <!-- 时间和supervisor -->
+      <div class="meta" style="font-size:12px; color:gray;">
+        {{ item.time }} &nbsp; | &nbsp; Supervisor: {{ item.supervisor }}
+      </div>
+      <!-- 两行描述 -->
+      <div class="description" style="margin-top:5px; font-size:14px;">
+        <p>{{ item.description1 }}</p>
+        <p>{{ item.description2 }}</p>
+      </div>
   </div>
 </div>
 </li>
@@ -49,3 +38,4 @@
 
 </ol>
 </div>
+
