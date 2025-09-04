@@ -3,8 +3,8 @@ main:
     time: "May 2025 - July 2025"
     supervisor: "Dessight Biomedical Company"
     image: "./assets/img/dvrk.gif"
-    description1: "Responsible for deploying several benchmark algorithms for a series of manipulation task. The paper is on writing for ICRA 2026 where I am a co-author."
-    description2: "Responsible for building RL environment in SOFA and Isaac Sim."
+    description1: "Responsible for deploying several benchmark algorithms for a series of manipulation tasks. The paper is on writing for ICRA 2026 where I am a co-author."
+    description2: "Also responsible for building RL environment in SOFA and Isaac Sim."
 
   - title: "Capturing Dynamic Target with Magnetic Microgripper via RL"
     time: "Oct 2024 - Apirl 2025"
@@ -18,4 +18,4 @@ main:
     supervisor: "Prof. PengLu, the University of HongKong"
     image: "./assets/img/FTC.gif"
     description1: "Train and deploy an RL policy for controlling a small drone with rotor failure with RLtools, a C++ RL library."
-    description2: "Succeed in simulation but highly unstable in reality."
+    description2: "Succeessful in simulation but highly unstable in reality."
