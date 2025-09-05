@@ -26,8 +26,8 @@
       </div>
       <!-- 两行描述 -->
       <div class="description" style="margin-top:5px; font-size:14px;">
-        <p style="margin:2px 0;">{{ item.description1 }}</p>
-        <p style="margin:2px 0;">{{ item.description2 }}</p>
+        <p>{{ item.description1 }}</p>
+        <p>{{ item.description2 }}</p>
       </div>
   </div>
 </div>
