@@ -75,8 +75,39 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 4px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    </tr>
 
+<tr>
+  <td style="padding:16px;width:20%;vertical-align:middle">
+    <video width="200" autoplay loop muted playsinline>
+      <source src="project/egox.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a href="https://openreview.net/forum?id=5N48I4UMrw">
+      <span class="papertitle">Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming</span>
+    </a>
+    <br>
+    <strong>Binghong Chen*</strong>, <a href="https://yaruniu.com/">Yaru Niu</a>*, <a href="https://www.chad-yao.com/">Changwei Yao</a>*, Zhenlong Fang*, <a href="https://shangtaoli.github.io/">Shangtao Li</a>*, <a href="https://revanthsenthil.github.io/">Revanth Senthilkumaran</a>, <a href="https://www.shuai-zhou.com/">Shuai Zhou</a>, 
+     <a href="https://yueminm.github.io/">Yuemin Mao</a>, <a href="https://haozhang-thu.github.io/">Hao Zhang</a>, 
+    <a href="https://scholar.google.com/citations?user=LYt_2MgAAAAJ&hl=en">Bingqing Chen</a>, Chen Qiu, <a href="https://www.nae.edu/248787/Dr-Hongtei-E-Tseng">H. Eric Tseng</a>, <a href="https://icontrol.ri.cmu.edu/people/changliu.html">Changliu Liu</a>, <a href="https://jonfranc.com/">Jonathan Francis</a>, <a href="https://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html">Ding Zhao</a>
+    <br>
+    <em><a href="https://dex-manipulation.github.io/rss2026/">4th workshop on Dexterous Manipulation</a> (RSS 2026)</em>
+    <br>
+    <a class="abstract-toggle" onclick="toggleAbstract('abs1')">abstract</a> |
+    <!-- <a href="https://humanoid-touch-dream.github.io/">webpage</a> | -->
+    <!-- <a href="https://arxiv.org/pdf/2603.22703">pdf</a> | -->
+    <a href="https://dex-manipulation.github.io/rss2026/pdfs/27_Egocentric_Cross_Embodiment.pdf">pdf</a>
+    <!-- <a href="...">code</a> -->
+    <div id="abs1" class="abstract-box">
+      We introduce EgoX, an egocentric cross-embodiment learning framework for manipulation. EgoX records human and robot demonstrations as observation-action trajectories in a unified egocentric format, pretrains a Modularized Cross-Embodiment Transformer with Embodiment Dreaming (MXT+) on the resulting mixture, and finetunes it on target-embodiment demonstrations.  We evaluate EgoX on multiple manipulation tasks across five diverse embodiments spanning humanoid, wheeled mobile, tabletop arm, quadrupedal, and tool-use platforms with different end-effectors. 
+    </div>
+    <p></p>
+  </td>
+</tr>
 
+<tr>
   <td style="padding:16px;width:20%;vertical-align:middle">
     <video width="200" autoplay loop muted playsinline>
       <source src="project/htd.mp4" type="video/mp4">
@@ -91,19 +122,21 @@
     <a href="https://yaruniu.com/">Yaru Niu</a>, Zhenlong Fang, <strong>Binghong Chen</strong>, <a href="https://www.shuai-zhou.com/">Shuai Zhou</a>, <a href="https://revanthsenthil.github.io/">Revanth Senthilkumaran</a>, <a href="https://haozhang-thu.github.io/">Hao Zhang</a>, 
     <a href="https://scholar.google.com/citations?user=LYt_2MgAAAAJ&hl=en">Bingqing Chen</a>, Chen Qiu, <a href="https://www.nae.edu/248787/Dr-Hongtei-E-Tseng">H. Eric Tseng</a>, <a href="https://jonfranc.com/">Jonathan Francis</a>, <a href="https://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html">Ding Zhao</a>
     <br>
-    <em>ArXiv Preprint 2026</em>
+    <em>International Conference on Intelligent Robots and Systems (IROS 2026)</em>
     <br>
-    <a class="abstract-toggle" onclick="toggleAbstract('abs1')">abstract</a> |
+    <em><a href="https://wcbm-workshop.github.io/rss2026/">Whole-Body Control and Bimanual Manipulation Workshop</a> (RSS 2026), Oral Presentation</em>
+    <br>
+    <a class="abstract-toggle" onclick="toggleAbstract('abs2')">abstract</a> |
     <a href="https://humanoid-touch-dream.github.io/">webpage</a> |
     <!-- <a href="https://arxiv.org/pdf/2603.22703">pdf</a> | -->
     <a href="https://arxiv.org/pdf/2604.13015v2">arXiv</a>
     <!-- <a href="...">code</a> -->
-    <div id="abs1" class="abstract-box">
+    <div id="abs2" class="abstract-box">
       We introduce Humanoid Transformer with Touch Dreaming (HTD), which includes future hand-joint-force prediction and EMA-supervised tactile-latent prediction for versatile humanoid manipulation. We develop a whole-body humanoid manipulation system that combines VR teleoperation with an RL-based whole-body controller. We evaluate five humanoid manipulation tasks spanning insertion, rigid-object reorientation, deformable-object handling, tool use, and bimanual loco-manipulation.
     </div>
     <p></p>
   </td>
-  </tr>
+</tr>
 <tr>
   <td style="padding:16px;width:20%;vertical-align:middle">
     <video width="200" autoplay loop muted playsinline>
@@ -120,8 +153,8 @@
     <!-- <a href="https://arxiv.org/pdf/2603.22703">pdf</a> | -->
     <!-- <a href="https://arxiv.org/pdf/2604.13015v2">arXiv</a>  -->
     <!-- <a href="...">code</a> -->
-    <a class="abstract-toggle" onclick="toggleAbstract('abs2')">abstract</a>
-    <div id="abs2" class="abstract-box">
+    <a class="abstract-toggle" onclick="toggleAbstract('abs3')">abstract</a>
+    <div id="abs3" class="abstract-box">
       We introduce Dexterous Wristed Robotic Kit(DWRK), designed for autonomous robot-assisted minimally invasive surgery. DWRK provides a reliable modular platform with high dexterity for performing surgical manipulation tasks, enabling data-driven learning approaches toward full surgical autonomy. We implement several benchmark imitation learning algorithms based on this platform.
     </div>
     <p></p>
@@ -146,10 +179,10 @@
     <!-- <a href="https://humanoid-touch-dream.github.io/">webpage</a> | -->
     <!-- <a href="https://arxiv.org/pdf/2603.22703">pdf</a> | -->
     <!-- <a href="https://arxiv.org/pdf/2604.13015v2">arXiv</a>  -->
-    <a class="abstract-toggle" onclick="toggleAbstract('abs3')">abstract</a> |
+    <a class="abstract-toggle" onclick="toggleAbstract('abs4')">abstract</a> |
     <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11554436">pdf</a> |
     <a href="https://github.com/fanghaow/STTRL-DVO">code</a>
-    <div id="abs3" class="abstract-box">
+    <div id="abs4" class="abstract-box">
       We proposed a Transformer-based RL framework to help microgripper navigate within a constrained environment with lots of dynamic obstacles and capture the dynamic target. We adopt virtual lidar information for robust perception and use Transformer to extract spatial and temporal information. We propose a deterministic velocity obstacle (DVO), an improved variant of the velocity obstacle (VO), where the sampling process is replaced with odometry-based computation to provide guidance during RL training.
     </div>
     <p></p>
